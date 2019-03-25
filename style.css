@@ -1,15 +1,32 @@
 body {
-  background: rgb(70, 135, 255);
+  background: rgb(104, 157, 255);
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
-.card {
-  width: 40em;
-  height: 40em;
+.outer {
+  width: 800px;
+  height: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+}
+
+.inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20em;
+  height: 20em;
   background: #fff;
+  box-shadow: 1px 1px 20px 2px rgb(0, 0, 0);
+  transform-style: preserve-3d;
 }
