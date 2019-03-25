@@ -1,0 +1,15 @@
+body {
+  background: rgb(70, 135, 255);
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 40em;
+  height: 40em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
