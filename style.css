@@ -3,29 +3,20 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  transform-origin: center;
+  transform-style: preserve-3d;
 }
 
-.outer {
-  width: 800px;
-  height: 500px;
+.target {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 1px solid #ccc;
-}
-
-.inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 20%;
+  /* transform: translate(-50%, -50%); */
   display: flex;
   justify-content: center;
   align-items: center;
-
-  width: 20em;
-  height: 20em;
+  width: 600px;
+  height: 600px;
   background: #fff;
   box-shadow: 1px 1px 20px 2px rgb(0, 0, 0);
   transform-style: preserve-3d;
