@@ -12,9 +12,6 @@ function showCoords(event) {
   paragraph.innerHTML = coordX + " - " + coordY + " -- " + 
   winWidth + " - " + winHeight;
 
-  // target.style.transform = `rotateY(${coordX}deg)`;
-  // target.style.transform = `rotateX(${coordY}deg)`;
-
   target.style.transform = `rotat3d(0, 1, 0, ${coordX}deg)`;
 }
 
